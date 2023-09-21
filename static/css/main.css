@@ -40,16 +40,6 @@
     url('./fonts/LM-bold-italic.ttf') format('truetype');
 }
 
-
-
-
-
-
-
-
-
-
-
 @-ms-viewport
 {
     width: device-width;
@@ -81,7 +71,6 @@ body
     height: 100%;
     min-height: 100%;
     margin: 0;
-
     background-color: #fcfcfc;
 }
 html
@@ -316,3 +305,21 @@ pre > code {
     word-wrap: initial;
     word-break: initial;
 }
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto;
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;
+}
+
