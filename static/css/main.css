@@ -45,17 +45,17 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url('./fonts/Bebas-Regular.otf') format('otf'),
+  src: url('./fonts/Bebas-Regular.woff2') format('woff2'),
     url('./fonts/LM-bold-italic.woff') format('woff'),
     url('./fonts/LM-bold-italic.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Boris Black Bloxx';
+  font-family: 'Boris';
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url('./fonts/BorisBlackBloxx.ttf') format('truetype'),
+  src: url('./fonts/BorisBlackBloxx.woff2') format('woff2'),
     url('./fonts/LM-bold-italic.woff') format('woff'),
     url('./fonts/LM-bold-italic.ttf') format('truetype');
 }
@@ -107,7 +107,10 @@ li
 }
 .author
 {
-    color: #444;
+    color: #282828;
+    font-family: 'Boris','Latin Modern',serif;
+    font-size: 54px;
+    margin-top: 30px;
 }
 .author h1,
 .author h2,
@@ -117,7 +120,7 @@ li
 .author h6,
 .author p
 {
-    font-family: 'Boris Black Bloxx', 'Roboto Slab', serif;
+    font-family: 'Latin Modern','Boris', 'Roboto Slab', serif;
 }
 .category
 {
@@ -153,7 +156,8 @@ div.content
 {
     font-family: 'Bebas', 'Roboto', sans-serif;
     font-weight: 200;
-    color: #8b8b8b;
+    color: #444;
+    margin-bottom: 35px;
 }
 .error
 {
