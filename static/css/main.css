@@ -40,6 +40,26 @@
     url('./fonts/LM-bold-italic.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('./fonts/Bebas-Regular.otf') format('otf'),
+    url('./fonts/LM-bold-italic.woff') format('woff'),
+    url('./fonts/LM-bold-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Boris Black Bloxx';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('./fonts/BorisBlackBloxx.ttf') format('truetype'),
+    url('./fonts/LM-bold-italic.woff') format('woff'),
+    url('./fonts/LM-bold-italic.ttf') format('truetype');
+}
+
 @-ms-viewport
 {
     width: device-width;
@@ -131,7 +151,7 @@ div.content
 }
 .description
 {
-    font-family: 'Latin Modern', 'Roboto', sans-serif;
+    font-family: 'Bebas', 'Roboto', sans-serif;
     font-weight: 200;
     color: #8b8b8b;
 }
@@ -185,7 +205,7 @@ div.content
 }
 .intro
 {
-    font-family: 'Latin Modern', 'Latin Modern', 'Roboto Slab', serif;
+    font-family: 'Boris Black Bloxx', 'Latin Modern', 'Roboto Slab', serif;
     font-weight: 200;
     color: #777;
 }
